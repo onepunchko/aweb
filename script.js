@@ -10,7 +10,7 @@ document.getElementById('menu-button').addEventListener('click', function() {
 });
 
 // 使用 Fetch API 获取 README.md 内容并插入到页面中。
-fetch('./readme.md')
+fetch('./README.md')
 .then(response => response.text())
 .then(data => {
 	document.getElementById('readme-content').textContent = data;
