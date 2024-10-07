@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动漫风景展示</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="menu-button" class="menu-button">☰</div>
+
+<div id="sidebar" class="sidebar">
+    <h2>索引搜索内容</h2>
+    <ul id="search-results"></ul>
+</div>
+
+<div class="content">
+    <!-- 动漫风景图层 -->
+    <div class='layer' style='background-image: url("layer1.jpg");'></div>
+    <div class='layer' style='background-image: url("layer2.jpg");'></div>
+    <div class='layer' style='background-image: url("layer3.jpg");'></div>
+
+   <!-- 读取README.md内容 -->
+   <pre id="readme-content"></pre> 
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
